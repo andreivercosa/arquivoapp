@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{1CCFA7D6-1E6B-433F-B9B0-8DBBA6F14AD9}|Default">
+  <MonoDevelop.Ide.ItemProperties.ArquivoApp.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ArquivoApp/Consumo.xaml.cs">
+    <Files>
+      <File FileName="ArquivoApp/MainPage.xaml.cs" Line="1" Column="2" />
+      <File FileName="ArquivoApp/MainPage.xaml" Line="20" Column="15" />
+      <File FileName="ArquivoApp/Consumo.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ArquivoApp" expanded="True">
+            <Node name="ArquivoApp" expanded="True">
+              <Node name="MainPage" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="Consumo.xaml" expanded="True">
+                <Node name="Consumo.xaml.cs" selected="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ArquivoApp.Android PreferredExecutionTarget="Android.JBAKB6044247LNM" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
