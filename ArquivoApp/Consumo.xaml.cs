@@ -8,7 +8,7 @@ namespace ArquivoApp
     public partial class Consumo : ContentPage
     {
       
-        public Consumo()
+        public Consumo(List<string> lista)
         {
             InitializeComponent();
             label_secundario.Text = App.ValorDesteContexto;

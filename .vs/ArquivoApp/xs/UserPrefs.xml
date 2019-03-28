@@ -1,13 +1,10 @@
 ﻿<Properties StartupConfiguration="{1CCFA7D6-1E6B-433F-B9B0-8DBBA6F14AD9}|Default">
   <MonoDevelop.Ide.ItemProperties.ArquivoApp.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ArquivoApp/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ArquivoApp/Consumo.xaml.cs">
     <Files>
-      <File FileName="ArquivoApp/MainPage.xaml.cs" Line="12" Column="28" />
-      <File FileName="ArquivoApp/MainPage.xaml" Line="8" Column="26" />
-      <File FileName="ArquivoApp/Consumo.xaml.cs" Line="14" Column="14" />
-      <File FileName="ArquivoApp/PageListaArquivo.xaml" Line="6" Column="1" />
-      <File FileName="ArquivoApp/PageListaArquivo.xaml.cs" Line="1" Column="1" />
-      <File FileName="ArquivoApp/App.xaml.cs" Line="19" Column="21" />
+      <File FileName="ArquivoApp/MainPage.xaml.cs" Line="28" Column="55" />
+      <File FileName="ArquivoApp/MainPage.xaml" Line="24" Column="34" />
+      <File FileName="ArquivoApp/Consumo.xaml.cs" Line="11" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,10 +13,10 @@
             <Node name="ArquivoApp" expanded="True">
               <Node name="MainPage" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-              <Node name="Consumo.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
+              <Node name="Consumo.xaml" expanded="True">
+                <Node name="Consumo.xaml.cs" selected="True" />
               </Node>
+              <Node name="MainPage.xaml" expanded="True" />
               <Node name="PageListaArquivo.xaml" expanded="True" />
             </Node>
           </Node>

@@ -20,5 +20,7 @@
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand"
                x:Name="label_inicial"/>
+        <Button
+        Clicked="Handle_Clicked_1"/>
     </StackLayout>
 </ContentPage>
