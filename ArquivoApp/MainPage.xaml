@@ -13,6 +13,7 @@
         <Editor 
             x:Name="editor_valor"
         HeightRequest="200"
+            BackgroundColor="Gray"
         Margin="20, 20, 20, 0"/>   
         
         <Label Text="Texto inicial"
@@ -21,6 +22,15 @@
                VerticalOptions="CenterAndExpand"
                x:Name="label_inicial"/>
         <Button
-        Clicked="Handle_Clicked_1"/>
+            Text="Quebrar String"
+        Margin="15"
+        FontSize="20"
+        Clicked="quebrarString"/>
+        
+        <Button
+            Text="Listar"
+        Clicked="Handle_Clicked_1"
+        Margin="15"
+        FontSize="20"/>
     </StackLayout>
 </ContentPage>

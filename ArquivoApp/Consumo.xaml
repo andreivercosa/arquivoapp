@@ -7,11 +7,9 @@
     </ContentPage.ToolbarItems>
     
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Texto inicial"
-               FontSize="40"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand"
-               x:Name="label_secundario"/>
+        <ListView
+        x:Name="listaArquivo"
+        />
+       
     </StackLayout>
 </ContentPage>

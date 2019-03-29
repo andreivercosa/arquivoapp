@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -10,6 +11,7 @@ namespace ArquivoApp
     {
         public static string ValorDesteContexto { get; set; }
         public static string PastaDiretorio { get; set; }
+
 
         public App()
         {
