@@ -26,5 +26,13 @@ namespace ArquivoApp
             }
             listaArquivo.ItemsSource = listaArquivos;
         }
+
+        async void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+
+            //var valor = sender;
+            //var eh = e;
+            await DisplayAlert("Titulo", e.SelectedItem.ToString(), "OK");
+        }
     }
 }

@@ -9,6 +9,7 @@
     <StackLayout>
         <ListView
         x:Name="listaArquivo"
+         ItemSelected="Handle_ItemSelected"
         />
        
     </StackLayout>
