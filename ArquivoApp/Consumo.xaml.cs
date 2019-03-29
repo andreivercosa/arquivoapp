@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Xamarin.Forms;
 
 namespace ArquivoApp
@@ -20,7 +21,8 @@ namespace ArquivoApp
             var arquivos = Directory.EnumerateFiles(App.PastaDiretorio, "*.txt");
             foreach(var nomearquivo in arquivos)
             {
-                listaArquivos.Add(nomearquivo);
+                int indice = nomearquivo.LastIndexOf('/');
+                listaArquivos.Add(nomearquivo.Substring(indice + 1));
             }
             listaArquivo.ItemsSource = listaArquivos;
         }
