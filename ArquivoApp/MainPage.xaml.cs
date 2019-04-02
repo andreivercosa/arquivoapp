@@ -8,23 +8,27 @@ namespace ArquivoApp
 {
     public partial class MainPage : ContentPage
     {
-        List<string> listaNome = new List<string>();
+
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
 
             string nome = Path.GetRandomFileName() + ".txt";
             string nomeArquivo = Path.Combine(App.PastaDiretorio, $"{nome}");
-            File.Create(nomeArquivo);
+
+            //File.Create(nomeArquivo);
             //label_inicial.Text = nomeArquivo;
-            listaNome.Add(nomeArquivo);
+            App.listaNome.Add(nomeArquivo);
+            
+            File.WriteAllText(nomeArquivo, editor_valor.Text);
+
         }
 
         public MainPage()
         {
             InitializeComponent();
             label_inicial.Text = "Adicionando..";
-            editor_valor.Text = App.PastaDiretorio;
+            //editor_valor.Text = App.PastaDiretorio;
         }
 
         void Handle_Clicked_1(object sender, System.EventArgs e)

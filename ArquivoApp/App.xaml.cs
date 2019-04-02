@@ -11,7 +11,7 @@ namespace ArquivoApp
     {
         public static string ValorDesteContexto { get; set; }
         public static string PastaDiretorio { get; set; }
-
+        public static List<string> listaNome = new List<string>();
 
         public App()
         {

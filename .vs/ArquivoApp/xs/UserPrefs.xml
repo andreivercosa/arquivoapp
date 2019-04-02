@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{1CCFA7D6-1E6B-433F-B9B0-8DBBA6F14AD9}|Default">
   <MonoDevelop.Ide.ItemProperties.ArquivoApp.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ArquivoApp/Consumo.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ArquivoApp/Consumo.xaml.cs">
     <Files>
-      <File FileName="ArquivoApp/Consumo.xaml.cs" Line="25" Column="55" />
-      <File FileName="ArquivoApp/Consumo.xaml" Line="11" Column="30" />
-      <File FileName="ArquivoApp/MainPage.xaml.cs" Line="37" Column="13" />
-      <File FileName="ArquivoApp/App.xaml.cs" Line="13" Column="30" />
-      <File FileName="ArquivoApp/MainPage.xaml" Line="36" Column="15" />
+      <File FileName="ArquivoApp/MainPage.xaml" Line="32" Column="24" />
+      <File FileName="ArquivoApp/Consumo.xaml" Line="21" Column="1" />
+      <File FileName="ArquivoApp/Consumo.xaml.cs" Line="39" Column="38" />
+      <File FileName="ArquivoApp/App.xaml.cs" Line="12" Column="62" />
+      <File FileName="ArquivoApp/MainPage.xaml.cs" Line="24" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +15,9 @@
             <Node name="ArquivoApp" expanded="True">
               <Node name="MainPage" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-              <Node name="Consumo.xaml" expanded="True" selected="True" />
+              <Node name="Consumo.xaml" expanded="True">
+                <Node name="Consumo.xaml.cs" selected="True" />
+              </Node>
               <Node name="MainPage.xaml" expanded="True" />
               <Node name="PageListaArquivo.xaml" expanded="True" />
             </Node>
@@ -24,7 +26,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ArquivoApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.ArquivoApp.Android PreferredExecutionTarget="Android.JBAKB6044247LNM" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
